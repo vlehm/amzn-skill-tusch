@@ -2,9 +2,9 @@
 
 Amazon Alexa Skill, der bei Start einen Karnevals-Tusch abspielt.
 
-git clone https://github.com/vlehm/amzn-skill-tusch.git
-cd amzn-skill-tusch/js
-npm install
-zip -r ../amzn-skill-tusch.zip *
+git clone https://github.com/vlehm/amzn-skill-tusch.git <br />
+cd amzn-skill-tusch/js <br />
+npm install <br />
+zip -r ../amzn-skill-tusch.zip * <br />
 
-upload as lambda function
+upload as lambda function <br />
