@@ -30,13 +30,13 @@ var handlers = {
 		controller.notYetSupported.call(this);
 	},
 	'AMAZON.NextIntent': function() {
-		controller.notYetSupported.call(this);
+		controller.play.call(this);
 	},
 	'AMAZON.PreviousIntent': function() {
-		controller.notYetSupported.call(this);
+		controller.play.call(this);
 	},
 	'AMAZON.RepeatIntent': function() {
-		controller.notYetSupported.call(this);
+		controller.play.call(this);
 	},
 	'AMAZON.ShuffleOffIntent': function() {
 		controller.notYetSupported.call(this);
@@ -48,7 +48,7 @@ var handlers = {
 		controller.play.call(this);
 	},
 	'AMAZON.HelpIntent': function() {
-		var message = 'Starten, um einen Sound abzuspielen.';
+		var message = 'Starten, um abzuspielen.';
 		this.response.speak(message);
 		this.emit(':responseReady');
 	},
